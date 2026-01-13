@@ -1,0 +1,27 @@
+principais objetivos de desenvolvimento web
+1- reconhecer o ambiente web
+2 - descrever o conceito de interface
+3 - reconhecer as tecnologias do lado cliente
+4 - reconhecer as tecnologias do lado servidor
+
+cliente x servidor
+cliente requer as informações e o servidor fornece
+cliente por exemplo utiliza diversos tipos de dispositivos como celular, computador, tablet e etc e o servidor divide as tarefas de acordo com a necessidade e o requerimento do cliente
+
+metodos get e post
+metodo get
+os dados são anexados no endereço
+
+metodo post
+os dados são anexados no servidor, não altera o endereço
+
+pagina web dinamica
+após a requisição do cliente em seu navegador, o cliente preenche um formulário e o servidor extrai os dados e retorna ao cliente
+como funciona em um pensamento computacional?
+cliente acessa o site
+preenche formulario
+dados do formulário é passado para o servidor
+o servidor extrai os dados e os retorna em php
+
+design responsivo
+basicamente é a adequação do website a diversos dispositivos e diversos tipos de público, com a adaptação de tamanho de tela e o design do site
