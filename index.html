@@ -31,6 +31,36 @@
                 <td>Sim</td>
             </tr>
         </table>
+        <form action="" method="post" border="3">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" required><br>
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" required><br>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" required><br>
+                <label for="CPF">CPF</label>
+                <input type="number" name="CPF" id="CPF"required>
+                <select name="UF" id="UF" required>
+                    <option id="UF">SP</option>
+                    <option id="UF">RJ</option>
+                </select><br>
+                <label for="data">Data de nascimento</label>
+                <input type="date" name="data" id="data" required><br>
+                <label for="sexo">Sexo</label>
+                <select name="sexo" id="sexo">Sexo
+                    <option id="sexo">M</option>
+                    <option id="sexo">F</option>
+                </select><br>
+                <label for="enviar">Enviar</label>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
     </main>
 </body>
 </html>
